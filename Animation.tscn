@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://AnimatedSpriteScript.gd" type="Script" id=1]
+
+[node name="Root" type="Node2D"]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 491.724, 280.465 )
+script = ExtResource( 1 )
